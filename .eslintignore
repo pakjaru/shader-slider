@@ -1,0 +1,12 @@
+.vscode/*
+.editorconfig
+.gitignore
+.prettierignore
+.prettierrc
+index.html
+package.json
+README.md
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+yarn.lock

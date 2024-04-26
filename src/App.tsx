@@ -1,7 +1,9 @@
+import { Slider } from "./components"
+
 function App() {
 	return (
 		<>
-			<div>App</div>
+			<Slider />
 		</>
 	)
 }

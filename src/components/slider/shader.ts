@@ -1,10 +1,10 @@
 import { RefObject } from "react"
 import * as THREE from "three"
 
-import { imageOne, imageTwo } from "../../assets"
+import { lndscp1, lndscp2 } from "../../assets"
 
-import vertexShader from "./Vertex"
-import fragmentShader from "./Fragment"
+import vertexShader from "./vertex"
+import fragmentShader from "./fragment"
 import gsap from "gsap"
 
 export const initShader = (elRef: RefObject<HTMLCanvasElement>) => {
@@ -18,8 +18,8 @@ export const initShader = (elRef: RefObject<HTMLCanvasElement>) => {
 
 	// Textures
 	const textureLoader = new THREE.TextureLoader()
-	const textureOne = textureLoader.load(imageOne)
-	const textureTwo = textureLoader.load(imageTwo)
+	const textureOne = textureLoader.load(lndscp1)
+	const textureTwo = textureLoader.load(lndscp2)
 
 	// Scene
 	const scene = new THREE.Scene()

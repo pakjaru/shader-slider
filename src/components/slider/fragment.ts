@@ -1,4 +1,4 @@
-const FragmentShader = `
+export default `
 uniform sampler2D uTextureOne;
 uniform sampler2D uTextureTwo;
 uniform float uProgress;
@@ -14,5 +14,3 @@ void main()
   gl_FragColor = mix(textureOne, textureTwo, uProgress);
 }
 `
-
-export default FragmentShader

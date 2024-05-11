@@ -1,7 +1,7 @@
 import { FC, useEffect, useRef, useState } from "react"
 
-import "./Shader"
-import { initShader } from "./Shader"
+import "./shader"
+import { initShader } from "./shader"
 
 export const Slider: FC = () => {
 	const elRef = useRef<HTMLCanvasElement>(null)
